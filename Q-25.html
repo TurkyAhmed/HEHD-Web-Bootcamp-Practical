@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container div{
+            display: inline-block;
+            margin: 10px;
+            height: 200px;
+            background-color: #b8b8b8;
+        }
+        .container div:first-child{
+            width: calc(100% - 80% - 20px)
+        }
+        .container div:nth-child(2){
+            width: calc(100% - 50% - 20%  )
+        }
+        .container div:last-child{
+            width: calc(100% - 50% - 60px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
