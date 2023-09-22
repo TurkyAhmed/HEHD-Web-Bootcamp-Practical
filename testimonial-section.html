@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* width: 800px; */
+            min-width: 400px;
+            max-width: 800px;
+            }
+            .content{
+                display: inline-block;
+                margin: 20px;
+
+            }
+
+            .personal{
+                display:flex;
+                margin: 20px;
+            }
+
+            .personal p{
+                justify-content: space-between;
+                
+            }
+        
+            .img-person{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                overflow: hidden;
+
+            }
+
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            .text{
+                width: 300px;
+                color: #fff;
+                background-color: rgb(51, 51, 138);
+                box-sizing: border-box;
+                border: 1px solid;
+                padding-left: 15px;
+
+            }
+
+            .txt-person{
+                line-height: 7px;
+                 padding-left: 17px;
+                 text-align: center;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="personal">
+                <div class="img-person">
+                    <img src="./image/person1.jpeg" alt="">
+                </div>
+                <div class="txt-person">
+                <p>Kristina</p>
+                <p  style="color: rgb(57, 57, 235);">Web Design</p>
+               </div>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut 
+                    ipsa qui velit esse est reprehenderit atque!</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="personal">
+                <div class="img-person">
+                    <img src="./image/person2.jpeg" alt="">
+                </div>
+                <div class="txt-person">
+                    <p>Steve Thomas</p>
+                    <p style="color: rgb(57, 57, 235);">Web Developer</p>
+                </div>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut 
+                    ipsa qui velit esse est reprehenderit atque!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
